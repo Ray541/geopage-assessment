@@ -2,7 +2,29 @@
 
 ## Tech Stack: Vite + React, MaterialUI
 
-_Please clone the repository to set up the project_
+### Project Description: Cascading Dropdown is a React application that demonstrates linked dropdown menus using MaterialUI components. This project allows users to select a country, state, district, sub-district, and village using cascading dropdown menus.
+
+#### Contents
+
+Create a List
+
+1. Installation
+2. Features
+3. Additional Features
+4. Usage
+5. Technologies Used
+
+#### Installation
+
+To run this project locally, follow these steps:
+
+1.Clone the repository:
+
+```
+git clone [https://github.com/Ray541/geopage-assessment.git]
+```
+
+2.Install dependencies if needed
 
 Command to install dependency if needed:
 
@@ -22,21 +44,37 @@ Command to install MaterialUI Icons:
 npm install @mui/icons-material @mui/material @emotion/styled @emotion/react
 ```
 
-Command to run the project on loaclhost:
+3.Run the development server:
 
 ```
 npm run dev
 ```
 
-**Main Functionality:**
-Linked Dropdowns - When user selects a country then user will get the list state respective to the country
-and list districts respective to the selected state
-and sub-districts respective to the district
-and the village respective tot the sub-district
+#### Features
 
-**Other Additional Functionalities:**
-Submit Button - This button is enable only if all the options are selected
-and onClick of the button the Selected Options is reflected in the UI for users to view it
+- Select country, state, district, sub-district, and village using linked dropdown menus.
+- Dynamic dropdown menus based on the selected options.
+- Display selected options in the UI.
+- Log selected data in the console.
 
-Reset Button - This is diabled if the user have not selected any country and when choosen then the button is enabled
-this button resets the whole options
+#### Additional Features
+
+- Display selected options in the UI.
+- Log selected data in the console.
+- Reset button to reset the selected options by the user
+
+#### Usage
+
+1.Select a country from the first dropdown menu.
+2.Based on the selected country, select a state from the second dropdown menu.
+3.Based on the selected state, select a district from the third dropdown menu.
+4.Based on the selected district, select a sub-district from the fourth dropdown menu.
+5.Based on the selected sub-district, select a village from the fifth dropdown menu.
+6.Click the "Console Log" button to log the selected options in the console.
+
+#### Technologies Used
+
+Create a List
+
+- React
+- MaterialUI
