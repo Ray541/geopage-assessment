@@ -1,6 +1,6 @@
 # Project Title: Linked Dropdowns with MaterialUI
 
-##Tech Stack: Vite + React, MaterialUI
+## Tech Stack: Vite + React, MaterialUI
 
 _Please clone the repository to set up the project_
 
@@ -10,13 +10,13 @@ Command to install dependency if needed:
 npm install
 ```
 
-command to install MaterialUI:
+Command to install MaterialUI:
 
 ```
 npm install @mui/material @emotion/react @emotion/styled
 ```
 
-command to install MaterialUI Icons:
+Command to install MaterialUI Icons:
 
 ```
 npm install @mui/icons-material @mui/material @emotion/styled @emotion/react
