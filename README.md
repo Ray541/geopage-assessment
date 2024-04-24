@@ -6,8 +6,6 @@
 
 #### Contents
 
-Create a List
-
 1. Installation
 2. Features
 3. Additional Features
@@ -73,8 +71,6 @@ npm run dev
 6.Click the "Console Log" button to log the selected options in the console.
 
 #### Technologies Used
-
-Create a List
 
 - React
 - MaterialUI
