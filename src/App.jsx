@@ -16,6 +16,13 @@ const App = () => {
       <NavLink to={"/about"} style={linkStyle}>
         About
       </NavLink>
+      <a
+        href="https://github.com/Ray541/geopage-assessment"
+        target="_blank"
+        style={linkStyle}
+      >
+        Git Repo
+      </a>
       <Routes>
         <Route path="/" Component={Home} />
         <Route path="/about" Component={About} />
